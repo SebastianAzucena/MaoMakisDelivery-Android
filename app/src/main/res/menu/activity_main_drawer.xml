@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_comida_diaria"
+            android:icon="@drawable/outline_all_inclusive_24"
+            android:title="@string/platos_del_d_a" />
+        <item
+            android:id="@+id/nav_favorito"
+            android:icon="@drawable/outline_favorite_24"
+            android:title="@string/favorito" />
+        <item
+            android:id="@+id/nav_mi_carrito"
+            android:icon="@drawable/outline_shopping_cart_24"
+            android:title="@string/mi_carta" />
+    </group>
+</menu>
